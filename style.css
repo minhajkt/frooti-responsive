@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+a {
+  color: white !important;
+}
+
+.dropdown-menu {
+  background-color: #e53f27;
+}
+
+#spinning {
+  height: 30rem;
+  width: 10rem;
+  position: absolute;
+  top: 33%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+}
+
+.container-fluid {
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: serif;
+}
+
+.heading {
+  font-size: 4rem;
+}
+
+.divyellow {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 80rem;
+}
+
+.divwhite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 120px;
+  height: 80rem;
+  overflow-x: hidden;
+}
+
+.spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: serif;
+}
+
+.content {
+  font-size: 1.3rem;
+}
+
+.frooti2 {
+  width: 100%;
+}
+.row {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .content {
+    font-size: 1.2rem !important;
+  }
+  .divwhite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Merriweather", serif;
+    text-align: left;
+    padding: 2rem;
+  }
+  .divyellow {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* height: 80rem; */
+  }
+  .spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    height: 32rem !important;
+    width: 12rem !important;
+  }
+  .heading {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (max-width: 426px) {
+  .main-img {
+    margin-top: 55px !important;
+  }
+  .spin {
+    position: absolute;
+    top: 40% !important;
+    left: 38% !important;
+    height: 18rem !important;
+    width: 7rem !important;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+}
